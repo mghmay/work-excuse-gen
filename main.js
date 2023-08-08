@@ -48,9 +48,6 @@ const EXCUSES = {
 };
 
 const form = document.getElementById("form");
-const yourName = form["your-name"].value;
-const bossesName = form["bosses-name"].value;
-const excuse = document.getElementById("excuse");
 
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
@@ -58,6 +55,9 @@ form.addEventListener("submit", (e) => {
 });
 
 const getExcuse = () => {
+	const yourName = form["your-name"].value;
+	const bossesName = form["bosses-name"].value;
+	const excuse = document.getElementById("excuse");
 	const first = EXCUSES.first[Math.floor(EXCUSES.first.length * Math.random())];
 	const second =
 		EXCUSES.second[Math.floor(EXCUSES.second.length * Math.random())];
