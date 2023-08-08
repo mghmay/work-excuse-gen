@@ -10,7 +10,7 @@ const EXCUSES = {
 		"I have an injury",
 		"I have jury duty",
 		"I have a mental health day",
-		"I am pregnancy",
+		"I am pregnant",
 		"I have a religious celebration",
 	],
 	second: [
@@ -25,7 +25,7 @@ const EXCUSES = {
 		"I have road work in my area",
 		"I am more productive at home",
 		"I need uninterrupted time",
-		"I avoid the commute",
+		"I want to avoid the commute",
 		"I'm a loner",
 		"I am not a people person",
 		"I have a case of the hiccups",
